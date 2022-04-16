@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+}
+.container{
+    width: 600px;
+    background: #1bb7b7;
+    padding: 30px;
+    border-radius: 20px;
+}
+.boxs{
+    position: relative;
+    margin: auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 160px;
+    height: 160px;
+    background: #000;
+}
